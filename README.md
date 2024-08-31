@@ -37,23 +37,23 @@ To ensure a clean and isolated environment for your project, it's recommended to
 ### Step 1: Install `virtualenv`
 If you haven't installed `virtualenv` yet, you can do so using pip:
 
-```bash
+``bash
 pip install virtualenv
 
 ### Step 2: Create a Virtual Environment
 Navigate to your project directory and create a virtual environment:
 
-```bash
+bash
 virtualenv venv
 This will create a directory named venv in your project folder.
 
 ### Step 3: Activate the Virtual Environment
 On Windows:
-```bash
+bash
 
 venv\Scripts\activate
 On macOS/Linux:
-```bash
+bash
 
 source venv/bin/activate
 Once activated, your terminal or command prompt should show the name of the virtual environment (e.g., (venv)).
@@ -61,13 +61,13 @@ Once activated, your terminal or command prompt should show the name of the virt
 ### Step 4: Install Required Packages
 With the virtual environment activated, install the required packages:
 
-```bash
+bash
 
 pip install pandas seaborn matplotlib numpy nltk wordcloud pillow beautifulsoup4
 ### Step 5: Download NLTK Data
 Download the necessary NLTK data components:
 
-```python
+python
 
 import nltk
 nltk.download('stopwords')
@@ -105,7 +105,7 @@ Plot the distribution of sentence and character counts.
 ### Results
 The analysis provides insights into the distribution of sentiments, most frequently used words, and the characteristics of text data associated with each sentiment category. Word clouds visually highlight the dominant words, while the histograms and bar plots help to understand the text lengths and word frequencies.
 
-###Acknowledgements
+### Acknowledgements
 - Dataset: The dataset used for this analysis is sourced from Kaggle, titled Twitter Entity Sentiment Analysis.
 - Libraries: This project utilizes the following Python libraries:
 - pandas for data manipulation
