@@ -37,23 +37,23 @@ To ensure a clean and isolated environment for your project, it's recommended to
 ### Step 1: Install `virtualenv`
 If you haven't installed `virtualenv` yet, you can do so using pip:
 
-``bash
+
 pip install virtualenv
 
 ### Step 2: Create a Virtual Environment
 Navigate to your project directory and create a virtual environment:
 
-bash
+
 virtualenv venv
 This will create a directory named venv in your project folder.
 
 ### Step 3: Activate the Virtual Environment
 On Windows:
-bash
+
 
 venv\Scripts\activate
 On macOS/Linux:
-bash
+
 
 source venv/bin/activate
 Once activated, your terminal or command prompt should show the name of the virtual environment (e.g., (venv)).
@@ -67,11 +67,9 @@ pip install pandas seaborn matplotlib numpy nltk wordcloud pillow beautifulsoup4
 ### Step 5: Download NLTK Data
 Download the necessary NLTK data components:
 
-python
-
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
+- import nltk
+- nltk.download('stopwords')
+- nltk.download('punkt')
 
 ### How to Run
 Download the Dataset: Download the dataset from Kaggle and save it locally.
